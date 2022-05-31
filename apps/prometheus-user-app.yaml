@@ -10,7 +10,7 @@ spec:
     namespace: openshift-monitoring
     server: 'https://kubernetes.default.svc'
   source:
-    path: manifests/notifiers
+    path: manifests/prometheus-user-app
     repoURL: https://github.com/caseyrobb/cluster-config-gitops
     targetRevision: master
   project: cluster-config

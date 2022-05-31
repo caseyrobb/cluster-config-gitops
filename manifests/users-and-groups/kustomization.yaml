@@ -1,0 +1,9 @@
+kind: Kustomization
+apiVersion: kustomize.config.k8s.io/v1beta1
+
+namespace: openshift-operators
+
+resources:
+  - my-example-group.yaml
+  - myuser1.yaml
+  - myuser2.yaml

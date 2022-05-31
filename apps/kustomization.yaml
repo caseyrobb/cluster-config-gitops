@@ -4,3 +4,4 @@ resources:
 - container-security-app.yaml
 - prometheus-user-app.yaml
 - users-and-groups-app.yaml
+- test-app.yaml

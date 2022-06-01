@@ -3,5 +3,6 @@ kind: Kustomization
 resources:
 - container-security-app.yaml
 - prometheus-user-app.yaml
-#- users-and-groups-app.yaml
+- groups-app.yaml
+- users-app.yaml
 - test-app.yaml

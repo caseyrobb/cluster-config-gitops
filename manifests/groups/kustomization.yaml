@@ -5,5 +5,3 @@ namespace: openshift-operators
 
 resources:
   - my-example-group.yaml
-  - myuser1.yaml
-  - myuser2.yaml

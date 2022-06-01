@@ -1,0 +1,22 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: users-and-groups-app
+  annotations:
+    argocd.argoproj.io/sync-wave: "5"
+  labels:
+    gitops.ownedBy: cluster-config
+  namespace: openshift-gitops
+spec:
+  destination:
+    namespace: openshift-gitops
+    server: 'https://kubernetes.default.svc'
+  source:
+    path: manifests/users
+    repoURL: https://github.com/caseyrobb/cluster-config-gitops
+    targetRevision: master
+  project: cluster-config
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true

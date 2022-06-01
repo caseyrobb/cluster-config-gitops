@@ -4,4 +4,4 @@ resources:
 - container-security-app.yaml
 - prometheus-user-app.yaml
 - groups-app.yaml
-#- sealed-secrets-app.yaml
+- sealed-secrets-app.yaml

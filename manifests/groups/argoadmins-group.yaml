@@ -1,7 +1,6 @@
 apiVersion: user.openshift.io/v1
 kind: Group
 metadata:
-  name: my-example-group
+  name: argoadmins
 users:
-  - myuser1
-  - myuser2
+  - crobb

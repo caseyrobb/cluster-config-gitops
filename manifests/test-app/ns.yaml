@@ -1,9 +1,0 @@
-apiVersion: v1
-kind: Namespace
-metadata:
-  labels:
-    namespace.metadata.stackrox.io/name: test-app
-  name: test-app
-spec:
-  finalizers:
-  - kubernetes

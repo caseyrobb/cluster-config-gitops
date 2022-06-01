@@ -5,3 +5,4 @@ resources:
 - prometheus-user-app.yaml
 - groups-app.yaml
 - test-app.yaml
+- sealed-secrets-app.yaml

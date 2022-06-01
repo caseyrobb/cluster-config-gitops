@@ -6,3 +6,4 @@ namespace: openshift-operators
 resources:
   - my-example-group.yaml
   - htpasswd-sealed-secret.yaml
+  - crobb-crb.yaml

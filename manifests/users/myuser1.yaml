@@ -1,6 +1,0 @@
-kind: User
-apiVersion: user.openshift.io/v1
-metadata:
-  name: myuser1
-groups:
-  - my-example-group

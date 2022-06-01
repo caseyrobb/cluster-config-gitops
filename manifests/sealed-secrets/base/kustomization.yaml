@@ -4,4 +4,3 @@ kind: Kustomization
 resources:
   - sealed-secrets-ns.yaml
   - https://github.com/bitnami-labs/sealed-secrets/releases/download/v0.17.5/controller.yaml
-

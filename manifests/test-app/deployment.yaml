@@ -38,7 +38,7 @@ spec:
         deploymentconfig: test-app
     spec:
       containers:
-      - image: image-registry.openshift-image-registry.svc:5000/test-app/test-app@sha256:314d66529dff06ec906a868c43ea3118efaa8e95f1c66ac8db40428461cfa88a
+      - image: image-registry.openshift-image-registry.svc:5000/test-app/test-app:latest
         imagePullPolicy: Always
         name: test-app
         ports:

@@ -4,3 +4,4 @@ metadata:
   name: my-example-group
 users:
   - myuser1
+  - myuser2
